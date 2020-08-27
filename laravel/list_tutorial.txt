@@ -11,9 +11,9 @@
 	3	Controller
 	4	Request
 	5	Response
-	6	View
-	7	Blade Teamplate
-	8	Redirection
+	6	Redirection
+	7	View
+	8	Blade Teamplate
 	9	Database
 	10	Errors and Logging
 	11	Session

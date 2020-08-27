@@ -1,6 +1,9 @@
 # Tạo mới 1 project laravel
 	composer create-project laravel/laravel <project-name>
 
+# Kiểm tra phiên bản Laravel
+	php artisan --version
+
 # Middleware
 	php artisan make:middleware <middleware-name>
 
