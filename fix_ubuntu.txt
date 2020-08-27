@@ -1,0 +1,2 @@
+# Wifi No Adapter
+	sudo apt-get install --reinstall bcmwl-kernel-source

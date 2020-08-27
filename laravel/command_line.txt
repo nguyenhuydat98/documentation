@@ -1,0 +1,9 @@
+# Tạo mới 1 project laravel
+	composer create-project laravel/laravel <project-name>
+
+# Middleware
+	php artisan make:middleware <middleware-name>
+
+# Controller
+	php artisan make:controller <controller-name>
+	php artisan make:controller <controller-name> --resource
