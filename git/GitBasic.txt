@@ -1,0 +1,24 @@
+1. Branch
+	git branch <new-branch>				:	tạo nhánh mới
+	git checkout <name-branch>			:	chuyển sang nhánh khác
+	git checkout -b <new-branch>		:	tạo nhánh mới và chuyển luôn sang nhánh đó
+	git branch -d <name-branch>			:	xóa nhánh
+	git branch -m <old-name> <new-name>	:	đổi tên nhánh
+
+2. Remote
+	git remote 										: xem danh sách remote
+	git remote -v 									: xem danh sách chi tiết các remote
+	git remote add <name-remote> <url>				: thêm remote
+	git remote set-url <remote-name> <remote-url>	: thay đổi url của remote
+	git remote rename <old-name> <new-name>			: thay đổi tên remote
+	git remote remove <remote-name>					: xóa remote
+
+3. Commit
+	git log								: xem danh sách commit
+	git log --oneline					: xem danh sách commit nhưng mỗi commit trên 1 dòng
+	git commit -m "<message>"			: tạo mới 1 commit
+	git commit --amend -m "<mesage>"	: lưu lại thay đổi nhưng ghi đè lên commit trước đó
+
+	git status				: kiểm tra trạng thái của file
+	git add <name-file>		: theo dõi các file mới
+	git dif <name-file>		: xem thay đổi giữa working với stage

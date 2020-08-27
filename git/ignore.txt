@@ -1,0 +1,19 @@
+== Bỏ qua các file không muốn theo dõi trong .gitignore
+
+# không theo dõi file có đuôi .txt
+	*.txt
+
+# chỉ theo dõi file index.txt, các file có đuôi .txt khác không theo dõi
+	!index.txt
+
+# chỉ bỏ qua file asets ở thư mục gốc, chứ ko phải các thưu mục con
+	/asets
+
+# bỏ qua tất cả file trong thư mục images
+	images/
+
+#bỏ qua doc/notes.txt chứ không phải doc/sun/mydoc.txt
+	doc/*.txt
+
+# bỏ qua tất cả file đuôi .txt trong thư mục doc/
+	doc/**/*.txt 

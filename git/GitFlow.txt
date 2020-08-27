@@ -1,0 +1,31 @@
+1. Fork
+
+2. Clone
+
+3. Add remote
+	git remote add <name> <link-clone>
+	NOTE:
+		remote-local ở trên máy, thường đặt là origin
+		remote-proj là repo tới dự án mà mình fork về
+
+4. Create new branch
+	git checkout -b <new-branch>
+
+5. Commit data
+	git add .
+	git commit -m "<your-message>"
+
+6. Push code
+	git push <remote-local> <branch-working>
+
+7. Create pull request
+
+8. Fix conflict
+	git checkout master
+	git pull <remote-project> master
+	git checkout <branch-working>
+	git rebase master
+		// fix code
+	git add .
+	git rebase --continue
+	git push origin <branch-working> -f

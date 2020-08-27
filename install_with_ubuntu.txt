@@ -1,0 +1,13 @@
+== Install in Terminal
+
+	Google Chorme
+	Terminator
+	VLC
+	Sublime Text
+	Xampp
+
+	nodejs
+	npm
+	php
+	composer
+	mysql
