@@ -1,0 +1,79 @@
+# Routing
+	Basic
+	Route name
+	Route parameter
+	Route group
+
+# Middleware
+	Basic
+	Middleware Controller
+	Middleware Parameter
+	Terminate Middleware
+
+# Controller
+	Basic
+	Controller Resource
+
+# Request	(7-3-2)
+
+# Response
+	String and Array
+	Attaching header
+	Attaching cookie
+	View Response
+	Json Response
+	Download
+	Stream Dowmload
+	File Response
+
+# Redirection
+	Redirecting to URI
+	Redirecting to route name
+	Redirecting to action controller
+	Redirecting to external domain
+
+# View
+	Basic
+	View share
+	View exists
+	View first
+
+# Blade Teamplate
+	Layout Teamplate
+	if - while - for - foreach - switch
+
+# Query Builder (7-2-3)
+	get()
+	select(...)
+	where(...)
+	orWhere(...)
+	join(...)
+	orderBy(...)
+	limit(...)
+
+	groupBy(...)->having(...)
+	groupBy(...)->havingRow(...)
+
+	insert([...])
+	where()->update(...)
+	where()->delete()
+
+# Migration
+	Basic
+
+# Schema Builder
+	8 Type of Column
+		->increament('id')
+		->integer('view')
+		->decimal('price', 8, 2)
+		->boolean('active')
+		->string('name')
+		->text('description')
+		->enum('gender', ['male', 'female'])
+		->timestamps()
+
+	3 Modifier
+		after('id')
+		default($value)
+		nullable()
+

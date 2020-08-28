@@ -15,7 +15,10 @@
 	7	View
 	8	Blade Teamplate
 	9	Database
-	10	Errors and Logging
+			Migration
+			Query Builder
+			Schema Builder
+	10	Model
 	11	Session
 	12 	Cookie
 	13	Validation
