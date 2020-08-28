@@ -10,3 +10,6 @@
 # Controller
 	php artisan make:controller <controller-name>
 	php artisan make:controller <controller-name> --resource
+
+# View Composer
+	php artisan make:provider <provider-name>

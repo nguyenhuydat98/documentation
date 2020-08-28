@@ -1,0 +1,16 @@
+== Install Package for Sublime text 3
+
+# AdvancedNewFile
+	Ctrl + Shift + N => ...
+	
+
+# Packages
+	Ctrl + Shift + P => Package Install: Install Package
+	
+	Emmet 						
+	AutoFileName
+	DocBlockr
+	SidebarEnhancements
+	LaravelBladeHighlighter	
+	
+	...
