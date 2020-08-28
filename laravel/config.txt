@@ -1,0 +1,7 @@
+# config / app.php
+
+	'debug' => (bool) env('APP_DEBUG', true),
+
+	'log' => 'daily',
+
+	'log_max_files'=> 10 	// default value is 5
