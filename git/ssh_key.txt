@@ -1,9 +1,12 @@
-== Create new SSH key
+Create new SSH key
 
 	ssh-keygen -t rsa -b 4096 -C "<your_email>"
 	eval "$(ssh-agent -s)"
 	cat ~/.ssh/id_rsa.pub
-
 	Login to Github, đặt tên cho SSH key và paste SSH key đó vào
+
+
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
 
 ==> DONE
