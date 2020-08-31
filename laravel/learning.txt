@@ -5,16 +5,16 @@
 	Route group
 
 # Middleware
-	Basic
-	Middleware Controller
-	Middleware Parameter
+	Middleware Basic
 	Terminate Middleware
 
 # Controller
-	Basic
+	Basic Controller
 	Controller Resource
 
-# Request	(7-3-2)
+# Request
+	path - url - fullUrl -method - ip - route - is
+	input
 
 # Response
 	String and Array
@@ -42,24 +42,12 @@
 	Layout Teamplate
 	if - while - for - foreach - switch
 
-# Query Builder (7-2-3)
-	get()
-	select(...)
-	where(...)
-	orWhere(...)
-	join(...)
-	orderBy(...)
-	limit(...)
-
-	groupBy(...)->having(...)
-	groupBy(...)->havingRow(...)
-
-	insert([...])
-	where()->update(...)
-	where()->delete()
-
-# Migration
-	Basic
+# Query Builder
+	get - select - where - orWhere
+	join - orderBy - limit
+	groupBy - having
+	insert - update - delete
+	distinct - truncate
 
 # Schema Builder
 	8 Type of Column
@@ -77,3 +65,23 @@
 		default($value)
 		nullable()
 
+# Faker
+	$faker->randomDigit
+	$faker->numberBetween($min = 100, $max = 1000)
+	$faker->word
+	$faker->text
+	$faker->name
+	$faker->address
+	$faker->city
+	$faker->country
+	$faker->phoneNumber
+	$faker->company
+	$fake->imageUrl
+	$fake->unique()->email
+	$fake->username
+	$fake->password
+
+	new DateTime
+
+# Eloquent Model
+	

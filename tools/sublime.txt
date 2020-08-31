@@ -12,3 +12,4 @@ Ctrl + Shift + P => Package Install: Install Package
 	Bracket HighLighter
 	CodeIntel
 	JavaScript & Nodejs Snippets
+	Laravel Blade Highlighter

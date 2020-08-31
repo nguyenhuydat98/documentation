@@ -1,0 +1,19 @@
+# Migration
+	Migration giống như 1 hệ thống quản lí phiên bản dành cho CSDL 
+
+# Seeder and Factory
+	Tạo dữ liệu mẫu
+
+# Query Builer
+	Query builder cung cấp 1 giao diện có thể dễ dàng tạo và chạy truy vấn từ DB.
+	Query builder xây dựng lớp DB để thực thi các câu truy vấn đó.
+
+# Eloquent
+	Được laravel cung cấp, hỗ trợ dev thao tác với DB.
+	Trong Eloquent, mỗi bảng trong DB phải ứng với 1 Model
+
+# Mass Assignment
+	Là tính năng cho phép tự động gán các tham số của 1 HTTP request vào các biến hoặc đối tượng
+
+# Model Mass Assignment
+	

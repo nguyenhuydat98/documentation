@@ -23,3 +23,15 @@
 # Migration
 	php artisan migrate
 	php artisan make:migration create_table_products_table --create=products
+	php artisan make:migration change_column_image_to_image_path --table=products
+	php artisan migrate:rollback
+	php artisan migrate:rollback --step=n
+	php artisan migrate:reset
+
+	php artisan migrate:refresh
+
+#Seeder and Factory
+	php artisan make:factory <factory-name>
+	php artisan make:seeder <seeder-name>
+	php artisan db:seed
+	php artisan db:seed --class=<class-seeder>
