@@ -5,7 +5,7 @@
 # show battery percentage (%)
 	gsettings set org.gnome.desktop.interface show-battery-percentage true
 
-----------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 Google Chorme
 	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -34,7 +34,7 @@ Xampp (for php7.2)
 	sudo /opt/lampp/lampp start
 	Link: http://localhost/phpmyadmin
 
-----------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 git
 	sudo apt install git
@@ -65,3 +65,19 @@ mysql
 	sudo apt install mysql-server
 	sudo systemctl status mysql
 	sudo mysql_secure_installation
+
+--------------------------------------------------------------------------------------------------
+
+# Install package php7.2
+	sudo apt-get install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-gd php7.2-mysql php7.2-curl php7.2-intl php7.2-xsl php7.2-mbstring php7.2-zip php7.2-bcmath php7.2-soap php-xdebug php-imagick
+
+# bower
+	sudo apt update
+	sudo apt install nodejs npm
+	sudo ln -s "$(which nodejs)" /usr/bin/node
+	npm install -g bower
+
+# laravel mix
+	npm install
+	npm run dev
+	npm run watch
