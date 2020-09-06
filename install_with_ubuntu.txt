@@ -40,7 +40,9 @@ git
 	sudo apt install git
 
 nodejs
-	sudo apt install nodejs
+	sudo apt update
+	curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+	sudo apt -y install nodejs
 	node -v
 
 npm
@@ -79,5 +81,4 @@ mysql
 
 # laravel mix
 	npm install
-	npm run dev
 	npm run watch
