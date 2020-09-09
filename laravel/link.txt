@@ -1,0 +1,2 @@
+lang/vi
+	https://github.com//dinhquochan/laravel-vietnamese-language/releases

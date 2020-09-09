@@ -15,7 +15,8 @@
 	php artisan make:controller <controller-name> --resource
 
 # Model
-	php artisan make:model Product
+	php artisan make:model <model-name>
+	php artisan make:model <model-name> --migration
 
 # Migration
 	php artisan migrate
@@ -24,7 +25,6 @@
 	php artisan migrate:rollback
 	php artisan migrate:rollback --step=n
 	php artisan migrate:reset
-
 	php artisan migrate:refresh
 
 # Seeder and Factory
@@ -36,6 +36,11 @@
 # RESTful API 
 	php artisan make:controller Api/<controller-name> --api
 
+# Validate
+	php artisan make:request <request-name>
+
+--------------------------------------------------------------------------------------------
+
 # Auth
 	composer require laravel/ui --dev
 	php artisan ui vue --auth
@@ -46,3 +51,4 @@
 	bower search <package>
 	bower update
 	bower uninstall <package>
+

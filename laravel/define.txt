@@ -18,19 +18,20 @@
 # Model Mass Assignment
 	Sử dụng $fillable hoặc $guarded để ngăn chặn Mass Assignment
 
-	$guarded cho phép tất các các cột có thể gán tham số của 1 HTTP request vào các biến đối tượng
 	$fillable chỉ cho phép các thuộc tính trong nó có thể gán tham số của 1 HTTP request vào các biến đối tượng
+	$guarded ngược lại với $fillable
 
 # Accessors and Murators
 	Định dạng lại các thuộc tính của Eloquent khi lấy ra hoặc thêm mới dựa trên Model
 
 	Accessors : định dạng dữ liệu khi lấy ra (get)
 	Murators  : định dạng dữ liệu trước khi đưa vào DB (set)
-	
-# Authenrication
 
 # Bower
 	Là công cụ quản lí các nguồn tài nguyên cho frontend
 
 # Laravel Mix
 	Giúp tối ưu các file như css, javascript, image, ...	
+
+# Authenrication
+	Là chứng thực 1 đối tượng hoặc 1 người dùng nào đó đáng tin cậy hay ko.
