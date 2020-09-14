@@ -6,7 +6,7 @@
 
 # Query Builer
 	Query builder cung cấp 1 giao diện có thể dễ dàng tạo và chạy truy vấn từ DB.
-	Query builder xây dựng lớp DB để thực thi các câu truy vấn đó.
+	Query builder xây dựng class DB để thực thi các câu truy vấn đó.
 
 # Eloquent
 	Được laravel cung cấp, hỗ trợ dev thao tác với DB.
@@ -16,8 +16,6 @@
 	Là tính năng cho phép tự động gán các tham số của 1 HTTP request vào các biến hoặc đối tượng
 
 # Model Mass Assignment
-	Sử dụng $fillable hoặc $guarded để ngăn chặn Mass Assignment
-
 	$fillable chỉ cho phép các thuộc tính trong nó có thể gán tham số của 1 HTTP request vào các biến đối tượng
 	$guarded ngược lại với $fillable
 

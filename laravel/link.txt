@@ -1,2 +1,5 @@
 lang/vi
 	https://github.com//dinhquochan/laravel-vietnamese-language/releases
+
+icon
+    <script src="https://kit.fontawesome.com/548754e111.js"></script>
