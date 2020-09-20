@@ -34,6 +34,15 @@ Xampp (for php7.2)
 	sudo /opt/lampp/lampp start
 	Link: http://localhost/phpmyadmin
 
+Peek
+	sudo add-apt-repository ppa:peek-developers/stable
+	sudo apt-get update
+	sudo apt-get install peek
+	peek --version
+
+VLC
+	sudo snap install vlc
+
 --------------------------------------------------------------------------------------------------
 
 git
@@ -78,7 +87,3 @@ mysql
 	sudo apt install nodejs npm
 	sudo ln -s "$(which nodejs)" /usr/bin/node
 	npm install -g bower
-
-# laravel mix
-	npm install
-	npm run watch

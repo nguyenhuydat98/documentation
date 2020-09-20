@@ -1,7 +1,7 @@
 git clone <link>
 
-	rename 	.env .example
-	to		.env
+	Create file .env
+	Copy form .env.example to .env
 
 composer install
 composer dump-autoload

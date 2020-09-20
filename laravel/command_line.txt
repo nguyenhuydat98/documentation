@@ -33,7 +33,7 @@
 	php artisan db:seed
 	php artisan db:seed --class=<class-seeder>
 
-# RESTful API 
+# RESTful API
 	php artisan make:controller Api/<controller-name> --api
 
 # Validate
@@ -45,10 +45,12 @@
 	composer require laravel/ui --dev
 	php artisan ui vue --auth
 
+# File Storage
+	php artisan storage:link
+
 # Bower
 	bower init
 	bower install <package>
 	bower search <package>
 	bower update
 	bower uninstall <package>
-

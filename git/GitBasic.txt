@@ -21,4 +21,8 @@
 
 	git status				: kiểm tra trạng thái của file
 	git add <name-file>		: theo dõi các file mới
-	git dif <name-file>		: xem thay đổi giữa working với stage
+	git diff <name-file>	: xem thay đổi giữa working với stage
+
+4. Other
+	git stash		: lưu lại các thay đổi tại 1 nhánh để có thể checkout sang nhánh khác
+	git stash pop	: ngược lại với git stash
