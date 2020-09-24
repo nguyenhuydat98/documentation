@@ -34,6 +34,10 @@ Xampp (for php7.2)
 	sudo /opt/lampp/lampp start
 	Link: http://localhost/phpmyadmin
 
+MySQL Workbench
+	sudo apt update
+	sudo apt install mysql-workbench
+
 Peek
 	sudo add-apt-repository ppa:peek-developers/stable
 	sudo apt-get update

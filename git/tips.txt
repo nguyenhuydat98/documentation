@@ -1,0 +1,35 @@
+
+# Fix conflict
+
+    git checkout master
+    git pull <remote-project> master
+    git checkout <branch-working>
+    git rebase master
+        // fix code
+    git add .
+    git rebase --continue
+    git push origin <branch-working> -f
+
+# Sửa commit trước đó trên pull request
+
+        // fix code
+    git add .
+    git commit --amend
+    git push origin <branch-working> -f
+
+# Gộp nhiều commit thành 1
+    vd: muốn gộp 2 commit sau thành 1
+        aaaa ...
+        bbbb ...
+
+    git log --oneline
+    git rebase -i "bbbb"^
+        // chuyển pick -> squash ở commit bbbb
+        Ctrl + X
+        Ctrl + Y
+        Enter
+
+    git push origin <branch-working> -f
+
+        // khi bị lỗi và muốn ignore quá trình gộp commit trên:
+        git rebase --abort
