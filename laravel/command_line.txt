@@ -54,3 +54,9 @@
 	bower search <package>
 	bower update
 	bower uninstall <package>
+
+--------------------------------------------------------------------------------------------
+
+# Reset Cache (fix Auth cannot login)
+	php artisan config:cache
+

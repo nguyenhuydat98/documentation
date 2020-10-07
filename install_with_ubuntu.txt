@@ -47,6 +47,9 @@ Peek
 VLC
 	sudo snap install vlc
 
+Postman
+	sudo snap install postman
+
 Visual Studio Code
 	sudo apt update
 	sudo apt install software-properties-common apt-transport-https wget
