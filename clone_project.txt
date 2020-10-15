@@ -10,7 +10,7 @@ php artisan key:generate
 
 npm install
 
-php artisan storate:link
+php artisan storage:link
 
 ----------------------------
 
