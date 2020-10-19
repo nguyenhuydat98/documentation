@@ -1,0 +1,29 @@
+
+----------------------------------- Use Package Sweetalert in Laravel -----------------------------------
+
+composer require realrashid/sweet-alert
+
+composer dumpautoload
+
+Update file config/app.php
+    'providers' => [
+        ...
+        RealRashid\SweetAlert\SweetAlertServiceProvider::class,
+    ],
+
+    'aliases' => [
+        ...
+        'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
+    ],
+
+view master
+    @include('sweetalert::alert')
+
+import in Controller
+    use RealRashid\SweetAlert\Facades\Aler;
+
+php artisan vendor:publish --provider="RealRashid\SweetAlert\SweetAlertServiceProvider"
+
+--------------------------------------------------------------------------------------------------------
+
+alert()->success('Title', 'Content');
