@@ -21,6 +21,8 @@ view master (end of file)
 
 php artisan vendor:publish --provider="RealRashid\SweetAlert\SweetAlertServiceProvider"
 
+php artisan config:cache
+
 --------------------------------------------------------------------------------------------------------
 
 import in Controller
