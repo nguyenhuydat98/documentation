@@ -1,0 +1,40 @@
+# git rebase --> CONFLIC
+
+	git checkout master
+	git pull <remote> master
+	git checkout <working-branch>
+	git rebase master
+		--> CONFLIC
+	# ...resolve conflict(s)
+	git add .
+	git rebase --continue
+	git push origin <working-branch> -f
+
+-----------------------------------------------------------
+
+# git stash pop --> CONFLIC
+
+	git stash
+	git checkout master
+	git pull <remote> master
+	git checkout <working-branch>
+	git rebase master
+	git stash pop
+		--> CONFLIC
+	# ...resolve conflict(s)
+	git reset
+	git stash drop
+	
+-----------------------------------------------------------
+
+#git pull --> CONFLIC  < chưa thử đâu :)) >
+	
+	git checkout master
+	git pull <remote> master
+	git checkout <working-branch>
+	git pull <remote> <other-branch>
+		--> CONFLIC
+	# ...resolve conflict(s)
+	git add .
+	git commit --amend --no-edit
+	git push origin <working-branch> -f
