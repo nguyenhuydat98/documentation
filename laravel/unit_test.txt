@@ -2,7 +2,7 @@
 # Install Xdebug
     ./vendor/bin/phpunit --coverage-html public/coverage
 
-# Unit Test
+# Test Model
     php artisan make:test UserTest --unit
     php artisan make:test Models/UserTest --unit
 
@@ -10,8 +10,16 @@
 
     ./vendor/bin/phpunit --filter=<method_name>
 
-# Browser Test
-    composer require --dev laravel/dusk
+# Repository
 
-    php artisan dusk:install
-    php artisan dusk
+# Test Controller with Mockery
+
+# Browser Test
+    composer require --dev laravel/dusk     : add package laravel/dusk
+    php artisan dusk:install                : install package
+
+    php artisan dusk:make ViewTest
+    php artisan dusk                        : run your test
+    php artisan dusk:fails                  : nếu lệnh trên gặp lỗi, chạy lại bằng lệnh này để tiết kiệm thời gian
+
+

@@ -33,3 +33,9 @@
 
         // khi bị lỗi và muốn ignore quá trình gộp commit trên:
         git rebase --abort
+
+# Muốn ignore 1 file trong pull request
+    git rm --cached <name-file>
+
+# Muốn ignore 1 folder trong pull request
+    git rm --cached -r <name-folder>
