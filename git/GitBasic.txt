@@ -26,3 +26,8 @@
 4. Other
 	git stash		: lưu lại các thay đổi tại 1 nhánh để có thể checkout sang nhánh khác
 	git stash pop	: ngược lại với git stash
+
+	git config --global user.name "Your name"
+	git config --global user.email "your.email@gmail.com"
+	git config --list
+
