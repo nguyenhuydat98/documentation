@@ -1,11 +1,4 @@
 
-# Notification Realtime
-
+# Notification
     php artisan notifications:table                     // create notifications table
-    php artisan migrate
     php artisan make:notification TestNotification      // create a file notification in app/Notification
-
-        function via($notifiable)                       // dữ liệu được lưu trong DB
-        function toArray($notifiable)                   // return a data to save notifications table
-
-    php artisan make:controller SendNotification        // tạo 1 controller để tạo và lưu thông báo
